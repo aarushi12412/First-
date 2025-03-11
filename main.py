@@ -39,3 +39,11 @@ while 1==1:
     elif int(guess)==random_number:
         print("you got it")
         break
+
+"""Write a Python program that asks the user for a 
+sentence and then counts the number of words in it."""
+
+sentence = input("write a sentence" )
+words=sentence.split()
+num_words=len(words)
+print(f"your sentence has "+ str(num_words) + " words")
