@@ -47,3 +47,5 @@ sentence = input("write a sentence " )
 words=sentence.split()
 num_words=len(words)
 print(f"your sentence has "+ str(num_words) + " words")
+
+#hi
